@@ -1,17 +1,17 @@
 {
-  "short_name": "JJ-Motobike",
+  "short_name": "JJ Motobike",
   "name": "ร้านไพรบูลย์โมโตไบค์",
   "icons": [
     {
       "src": "icon-512.png?v=2",
       "type": "image/png",
       "sizes": "512x512",
-      "purpose": "any maskable" 
+      "purpose": "any maskable"
     }
   ],
-  "start_url": ".",
-  "background_color": "#ffffff",
-  "theme_color": "#1a73e8",
+  "start_url": "/-JJ-motobike/",
+  "background_color": "#f4f7f6",
+  "theme_color": "#1e40af",
   "display": "fullscreen",
   "orientation": "portrait"
 }
