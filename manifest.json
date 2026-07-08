@@ -1,0 +1,16 @@
+{
+  "short_name": "JJ-Motobike",
+  "name": "ร้านไพรบูลย์โมโตไบค์",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/1996/1996458.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "background_color": "#ffffff",
+  "theme_color": "#1a73e8",
+  "display": "standalone",
+  "orientation": "portrait"
+}
