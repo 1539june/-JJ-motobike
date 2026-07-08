@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ร้านไพรบูลย์โมโตไบค์</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1a73e8">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: #ffffff;
+        }
+        iframe {
+            border: none;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <iframe src="https://script.google.com/macros/s/AKfycbxKGHvyHCoLS8Hj6zxnvfOpluA8xNgBbDokyUrmP40WRo027B7mi5XH7hM0ZGelOL3kzw/exec"></iframe>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js')
+                    .then(reg => console.log('PWA Ready!'))
+                    .catch(err => console.log('PWA Error:', err));
+            });
+        }
+    </script>
+</body>
+</html>
